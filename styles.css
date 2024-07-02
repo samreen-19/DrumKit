@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+  background: linear-gradient(to right, #232526, #414345);
+  color: #ffffff;
+  font-family: 'Arvo', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: 3px 0 #DA0463;
+  color: #FFD700;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #FFD700;
+}
+
+#instructions {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #FFFAFA;
+}
+
+.set {
+  margin: 20px auto;
+}
+
+.drum {
+  outline: none;
+  border: none;
+  font-size: 3rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: #DA0463;
+  border-radius: 15px;
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+.drum:hover {
+  background-color: #ff6347;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
+}
+
+.pressed {
+  background-color: #FF4500;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+#controls {
+  margin: 20px auto;
+}
+
+#controls button, #controls input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#record, #playback {
+  background-color: #8b2f2f;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#record:hover, #playback:hover {
+  background-color: #ff6347;
+}
+
+#volume {
+  width: 200px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #232526;
+  color: #FFD700;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
